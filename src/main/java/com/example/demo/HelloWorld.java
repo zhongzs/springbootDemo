@@ -11,6 +11,8 @@ public class HelloWorld {
 	@RequestMapping("/hello")
 	public String helloworld(){
 		System.out.print("主干提交")
+		System.out.println("分支创建");
+
 		return "hello world";
 	}
 	
