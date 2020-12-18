@@ -10,6 +10,8 @@ public class HelloWorld {
 	@ResponseBody
 	@RequestMapping("/hello")
 	public String helloworld(){
+		System.out.println("分支创建");
+
 		return "hello world";
 	}
 	
